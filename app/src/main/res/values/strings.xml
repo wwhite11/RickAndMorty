@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RickandMorty</string>
+    <string name="preference_file_key">login_pref</string>
+    <string name="login_value_key">value_key</string>
 </resources>
