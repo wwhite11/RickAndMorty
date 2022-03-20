@@ -12,6 +12,6 @@
         tools:layout="@layout/fragment_details">
         <argument
             android:name="character"
-            app:argType="com.example.myapplication.Character"/>
+            app:argType="com.example.rickandmorty.Character"/>
     </fragment>
 </navigation>
