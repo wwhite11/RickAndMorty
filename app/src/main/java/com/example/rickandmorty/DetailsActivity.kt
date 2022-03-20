@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import com.example.rickandmorty.type.Character
 
 class DetailsActivity : AppCompatActivity(), DetailsActivityContract.View {
 
@@ -18,6 +17,7 @@ class DetailsActivity : AppCompatActivity(), DetailsActivityContract.View {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
 
+        character = intent.getParcelableExtra<Character>("character") as Character
 
 
         presenter = DetailsActivityPresenter()

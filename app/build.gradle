@@ -52,6 +52,17 @@ dependencies {
     //apollo dependency
     implementation 'com.apollographql.apollo3:apollo-runtime:3.1.0'
 
+    //dependency to use kotlin couroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0'
+
+    //dependency used to download image  from url and show ini imageViews
+    implementation 'com.github.bumptech.glide:glide:4.13.0'
+
+    // dependency for fragment
+    def fragment_version = '1.4.1'
+    implementation "androidx.fragment:fragment:$fragment_version"
+    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+
     //dependencies used for navigation components
     implementation 'androidx.navigation:navigation-fragment-ktx:2.4.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.4.1'
