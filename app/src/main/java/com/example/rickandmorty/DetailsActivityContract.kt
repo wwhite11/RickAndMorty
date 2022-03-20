@@ -1,7 +1,6 @@
 package com.example.rickandmorty
 
 import androidx.navigation.NavController
-import com.example.rickandmorty.type.Character
 
 
 interface DetailsActivityContract {
