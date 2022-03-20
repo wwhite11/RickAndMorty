@@ -61,7 +61,7 @@ My reason behind using this pattern is to divide the application into smaller se
 As you can see from the “Architectural Overview”, how I structured my files so that the responsibility is split. The ```Model``` represents the class that describes the business logic and data. And defines the business rules for data how they can be manipulated. In the ```Presenter```, we receive the inputs from the users from ```View```, and then with the assistance from the ```Model``` we are able to process the users data and pass those results back to the ```View```.  The relationships are close among files that have the same name but due to the design pattern they all run different tasks. So if something goes wrong in the application I know exactly where the root of the problem could be. 
 
 # Flow of Application
-### User logs into application
+#### User logs into application
 <img width="273" alt="Screen Shot 2022-03-20 at 2 01 48 PM" src="https://user-images.githubusercontent.com/54634093/159176386-66bea755-92fc-44ad-bded-f9fc1f3b8738.png">
 
 #### User can view a list of Characters which are scrollable
@@ -74,14 +74,10 @@ As you can see from the “Architectural Overview”, how I structured my files 
 #### We can logout back to the login screen
 <img width="273" alt="Screen Shot 2022-03-20 at 2 01 48 PM" src="https://user-images.githubusercontent.com/54634093/159176386-66bea755-92fc-44ad-bded-f9fc1f3b8738.png">
 
-### We can go back to view the previous activity
+#### We can go back to view the previous activity
 <img width="262" alt="Screen Shot 2022-03-20 at 1 31 58 PM" src="https://user-images.githubusercontent.com/54634093/159176495-fd639c99-399d-42e5-877a-36c6a343fac1.png">
 
 
 # Tools used to build and design application:
 <p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> </p>
 
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
