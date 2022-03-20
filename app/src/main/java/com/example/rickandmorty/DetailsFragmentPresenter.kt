@@ -13,7 +13,7 @@ class DetailsFragmentPresenter(private val view: DetailsFragmentContract.View): 
         imageView: ImageView,
         context: Context
     ) {
-        textView.text = "Status: ${character!!.status}"
+        textView.text = "Status : ${character.status}"
         Glide.with(context).load(character.image).into(imageView)
     }
 

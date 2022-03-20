@@ -1,7 +1,7 @@
 package com.example.rickandmorty
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 
@@ -12,7 +12,6 @@ class DetailsActivity : AppCompatActivity(), DetailsActivityContract.View {
     lateinit var character: Character
 
     lateinit var presenter: DetailsActivityContract.Presenter
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
